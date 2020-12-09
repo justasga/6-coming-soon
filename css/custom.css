@@ -1,11 +1,14 @@
 
 /* basic */
 .bg-main-color {
-    background-color: #03A9F3;
+    background-color: var(--main-color)
 }
 /* hero */
 .hero.container {
     padding-bottom: 20px;
+    background-image: url(../img/comingsoon6.png);
+    background-size: cover;
+    background-position: center bottom;
 }
 
 .hero > .row-short {
@@ -16,11 +19,14 @@
 
 }
 .hero h1 {
-    display: inline-block;
-    width: 100%;
-    color : #000;
-    font-size: 60px;
-    line-height: 60px;
+        display: inline-block;
+        width: 100%;
+        color: #000;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: var(--gap);
 
 }
 
@@ -29,12 +35,43 @@
     width: 100%;
     color : #000;
     font-size: 25px;
-    line-height: 15px;
+    line-height: 23px;
+    margin-bottom: var(--big-gap);
+}
 
+
+.hero .clock {
+    margin-bottom: var(--big-gap);
+}
+.hero .form {
+    margin-bottom: var(--gap);
 }
 
 
 /*main */
+main h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 15px;
+    line-height: 23px;
+    color: rgb(104, 101, 101);
+    margin-bottom: 20px;
+}
+
+main p > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+    main p > a:hover {
+        text-decoration: underline;
+    }
+
 
 /* footer */
 footer.container {
