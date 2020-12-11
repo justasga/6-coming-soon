@@ -76,4 +76,78 @@ main p > a {
 /* footer */
 footer.container {
     padding-top: 0;
+    text-align: center;
+}
+    footer > .row-long {
+        padding: 15px 0;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 20px;
+    }
+    footer .fa {
+        color: #fff;
+        font-size: 17px;
+        text-align: center;
+        line-height: 36px;
+        height: 36px;
+        width: 36px;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+
+    footer .fa:hover {
+        background-color: #fff;
+        color: var(--main-color);
+        
+    }
+
+    footer img {
+        margin-bottom: 20px;
+        height: 40px;
+
+    }
+
+    footer p {
+        display:inline-block;
+        width: 100%;
+        font-size: 17px;
+        line-height: 25px;
+        color: #fff9;
+
+    }
+        footer p a {
+            color: #fff;
+            text-decoration: none;
+
+        }
+        footer p > span {
+            padding: 0 10px;
+            position: relative;
+
+            
+
+        }
+
+        footer p > span + span::before {
+           /* border-left: 1px solid #fff; */  
+            content: '';
+            display: inline-block;
+            width: 1px;
+            height: 15px;
+            background-color: #fff;
+            position: absolute;
+            top: 50%;
+            left: -2px;
+            transform: translate(-50%);
+        }
+
+
+@media (max-width: 640px) {
+    footer p > span {
+        display:inline-block;
+        width: 100%;
+    }
+    footer p > span + span::before {
+        display: none;
+    }
+
 }
