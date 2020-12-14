@@ -13,14 +13,11 @@ body {
 .container > .row-short {
     grid-column: 3/4;
     
-
-
 }
 
 .container > .row-long {
     grid-column: 2/5;
     
-
 }
 
 .container > .row-long.columns {

@@ -16,6 +16,8 @@
 }
 
 .hero img {
+        height: 30px;
+        margin-bottom: var(--big-gap);
 
 }
 .hero h1 {
@@ -34,8 +36,8 @@
     display: inline-block;
     width: 100%;
     color : #000;
-    font-size: 25px;
-    line-height: 23px;
+    font-size: 20px;
+    line-height: 25px;
     margin-bottom: var(--big-gap);
 }
 
