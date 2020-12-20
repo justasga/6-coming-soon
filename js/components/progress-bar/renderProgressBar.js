@@ -1,4 +1,3 @@
-  
 import { isValidInput } from './isValidInput.js';
 import { isValidProgressBar } from './isValidProgressBar.js';
 
